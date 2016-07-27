@@ -1,0 +1,33 @@
+nav {
+	width: 500px;
+	background-color: WhiteSmoke;
+	overflow: hidden;
+}
+
+span {
+	display: block;
+	float: left;
+	padding: 2px;
+	margin: 5px;
+}
+
+a {
+	color: MediumOrchid;
+	text-decoration: none;
+	text-transform: uppercase; 
+}
+
+.page {
+	border: 1px solid LightGray;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.page:hover a {
+	color: white;
+}
+
+.page:hover {
+	background-color: MediumOrchid;
+}

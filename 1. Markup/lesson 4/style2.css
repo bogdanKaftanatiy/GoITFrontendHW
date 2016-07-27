@@ -1,0 +1,41 @@
+* {
+	font-family: Economica;
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+	
+.container {
+	background-color: mediumorchid;
+	height: 45px;
+	padding: 0 5px;
+}
+
+#menu {
+  	margin: 0 5%;
+}
+
+.item {
+	display: block;
+	float: left;
+}
+
+#more {
+	float: right;
+}
+
+a {
+	display: block;
+	padding: 0 15px;
+	height: 100%;
+	line-height: 1.6;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	background-color: ghostwhite;
+	color: grey;
+	box-shadow: 0 0 1px 1px;
+}
