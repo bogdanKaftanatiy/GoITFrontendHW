@@ -1,0 +1,17 @@
+body {
+	font-size: 250%;
+}
+
+a[href*="http"]{
+	color: #f70;
+}
+
+a[href*="google"]{
+	color: #666;
+}
+
+a[target="_blank"]::after {
+	display: inline-block;
+	content: " ⇱ ";
+	text-decoration: none;
+}
