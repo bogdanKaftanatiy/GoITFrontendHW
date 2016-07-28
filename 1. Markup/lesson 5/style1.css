@@ -1,0 +1,67 @@
+body {
+	font-family: Economica;
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+
+.firstM {
+	position: relative;
+	background-color: #1AA4FF;
+	height: 30px;
+}
+
+.firstM>span {
+	display: inline-block;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.firstM>span:first-child, .secondM>span:first-child {
+	margin-left: 5%;
+}
+
+.firstM>span:last-child {
+	float: right;
+	margin-right: 5%;
+}
+
+.secondM {
+	position: absolute;
+	background-color: #EEE;
+	width: 100%;
+	left: 0;
+	top: 30px;
+	display: none;
+}
+
+.secondM>span {
+	display: inline-block;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.firstM span:hover .secondM {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 10px; 
+	height: 30px;
+	line-height: 1.7;
+}
+
+.firstM>span>a {
+	color: white;
+}
+
+.firstM>span>a:hover {
+	background-color: #EEE;
+	color: #A0A0A7;
+}
+
+.secondM>span>a {
+	color: #B4C2CF;
+	font-weight: normal;
+}

@@ -1,0 +1,100 @@
+body {
+	font-family: "Trebuchet MS";
+}
+
+.container {
+	width: 300px;
+	background-color: #EE8129;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	padding: 4px;
+}
+
+.head1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	padding: 20px 50px;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+main {
+	background-color: white;
+	padding-bottom: 30px;
+}
+
+.head2 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 10px;
+	font-size: 25px;
+	color: #35495A;
+}
+
+.price{
+	position: relative;
+	right: 20px;
+	bottom: 10px;
+	font-size: 70px;
+	font-weight: bolder;
+	color: #35495A;
+	width: 80px;
+	margin: auto;
+}
+
+.price::before {
+	content: "$";
+	font-size: 20px;
+	position: absolute;
+	width: 10px;
+	left: -10px;
+	top: 10px;
+}
+
+.price::after {
+	content: "Monthly";
+	font-size: 17px;
+	position: absolute;
+	width: 70px;
+	right: -70px;
+	bottom: 5px;
+}
+
+.list {
+	display: block;
+	width: 260px;
+	margin: 15px auto;
+	color: #91949C;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 0;
+	list-style-position: inside;
+	list-style-image: url("mark.gif");
+}
+
+.list>li {
+	padding-bottom: 5px;
+	padding-left: 35px;
+}
+
+.list li:nth-child(odd) {
+	background-color: #EDF5FD;
+}
+
+.list li:nth-child(even) {
+	background-color: #F5F5F6;
+}
+
+.button {
+	width: 245px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	background-color: #EE8129;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 15px;
+	box-shadow: 0 2px 0 0 #B3560B;
+}
