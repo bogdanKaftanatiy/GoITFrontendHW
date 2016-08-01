@@ -1,0 +1,40 @@
+.form_search {
+	position: relative;
+	background-color: #FFCD5D;
+	width: 40%;
+	margin: auto;
+	padding: 5px 10px;
+	min-width: 300px;
+	margin-top: 50px;
+}
+
+.check {
+	width: 190px;
+}
+
+.find {
+	height: 25px;
+	width: 70px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.search {
+
+	width: calc(100% - 75px);
+	height: 25px;
+}
+
+.check_mark {
+	margin: 0px;
+}
+
+.form_search:after {
+	content: " ";
+	display: block;
+	border: 26px solid transparent;
+	border-left: 15px solid #FFCD5D;
+	position: absolute;
+	left: 100%;
+	bottom: 0;
+}
