@@ -1,0 +1,87 @@
+body {
+	background-color: #F6F9F9;
+	padding: 10px;
+}
+
+.photos {
+	max-width: 1160px;
+	margin: auto;
+	padding: 50px 0;
+}
+
+.photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+	display: inline-block;
+	position: relative;
+	width: 360px;
+	height: 260px;
+	margin: 10px;
+}
+
+.title {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 35pt;
+	color: #2E3A51;
+	padding-top: 20px;
+}
+
+.info {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: grey;
+	padding-top: 10px;
+}
+
+.overlay {
+	position: absolute;
+	width: 360px;
+	height: 260px;
+	background-color: rgba(21,164,250,0.8);
+	left: 0;
+	bottom: 0;
+	display: none;
+}
+
+.zoom, .link {
+	background-color: transparent;
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	bottom: 110px;
+}
+
+.zoom {
+	left: 135px;
+}
+
+.link {
+	left: 185px;
+}
+
+.zoom:hover, .link:hover {
+	background-color: #15A4FA;
+}
+
+.photo1:hover .overlay {
+	display: block;
+}
+
+.photo2:hover .overlay {
+	display: block;
+}
+
+.photo3:hover .overlay {
+	display: block;
+}
+
+.photo4:hover .overlay {
+	display: block;
+}
+
+.photo5:hover .overlay {
+	display: block;
+}
+
+.photo6:hover .overlay {
+	display: block;
+}
