@@ -1,0 +1,276 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.like_block {
+	background-color: #414042;
+	color: white;
+	text-align: center;
+}
+
+.like_title {
+	font-size: 40pt;
+	padding: 15px;
+	margin: 0;
+}
+
+.like_download_button {
+	background-color: #4BCAFF;
+	border-width: 0;
+	border-radius: 8px;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 25px;
+	color: #414042;
+	box-shadow: 0 3px 0 #277697;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.video_block {
+	background-image: url(img/video_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0;
+	text-align: center;
+}
+
+.video_title {
+	font-size: 36pt;
+	color: white;
+	padding: 40px;
+}
+
+.video_selected {
+	font-weight: bold;
+}
+
+.video_info {
+	width: 670px;
+	margin: auto;
+	color: white;
+	
+	text-align: justify;
+}
+
+.testimonials_block {
+	background-color: #F9F9F9;
+	text-align: center;
+}
+
+.testimonials_title {
+	margin: 0;
+	color: #414042;
+	font-size: 27pt;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.testimonials_data {
+	width: 530px;
+	margin: auto;
+}
+
+.testimonials_icon, .testimonial{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.testimonial {
+	width: 350px;
+	text-align: justify;
+	color: #4BCAFF;
+	margin-left: 15px;
+}
+
+.author {
+	text-align: right;
+	color: #4BCAFF;
+	position: relative;
+	bottom: 30px;
+}
+
+.testimonails_control_pane {
+	padding: 40px;
+}
+
+.control1, .control2, .control3 {
+	display: inline-block;
+	width: 50px;
+	height: 6px;
+	background-color: #C1EAFB;
+}
+
+.selected_control {
+	background-color: #4BCAFF;
+}
+
+.features_item {
+	display: inline-block;
+	width: 230px;
+	padding: 0;
+	margin: 45px;
+}
+
+.features_block {
+	text-align: center;
+	background-color: #F9F9F9;
+	padding-top: 45px;
+	border-bottom: 3px solid #E7E7E7;
+}
+
+.small_letter_title {
+	font-size: 26pt;
+	margin: 0;
+	color: #414042;
+}
+
+.small_letter_under_title {
+	color: #464547;
+	font-size: 13pt;
+}
+
+.features_item_title {
+	color: #464547;
+	text-transform: uppercase;
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 25px;
+}
+
+.features_item_data {
+	font-size: 10pt;
+	color: #838383;
+	line-height: 1.5;
+}
+
+.features_item_special_title {
+	color: #4BCAFF;
+}
+
+.gallery_block {
+	text-align: center;
+	padding: 45px 0;
+}
+
+.gallery_content {
+	margin: 45px 0;
+}
+
+.screenshot_block {
+	display: inline-block;
+	width: 270px;
+	margin: 0 25px;
+}
+
+.screenshot {
+	width: 270px;
+	position: relative; 
+}
+
+.overlay {
+	background-color: rgba(75,191,239, 0.5);
+	position: absolute;
+	left: 0;
+	bottom: 43px;
+	right: 0;
+	top: 0;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 70px;
+	color: white;
+	font-weight: bold;
+	font-size: 25pt;
+	border-radius: 5px 5px 0 0;
+
+	display: none;
+}
+
+.screenshot:hover .overlay {
+	display: block;
+}
+
+.screenshot_title {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	font-size: 12pt;
+	text-transform: uppercase;
+	color: #4BBFEF;
+}
+
+.screenshot_info {
+	padding: 20px 20px;
+	font-size: 10pt;
+	color: #838383;
+	line-height: 1.5;
+}
+
+.contact_block {
+	background-image: url("img/map.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 115px 0;
+}
+
+.contact_form {
+	width: 325px;
+	background-color: rgba(75,202,255, 0.8);
+	margin: auto;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid rgba(160,159,161, 0.5);
+}
+
+.contact_form_header {
+	margin: 0;
+	color: white;
+	padding: 30px;
+	font-size: 27pt;
+}
+
+.contact_form_item {
+	text-align: center;
+	width: 270px;
+	margin-bottom: 15px;
+	height: 40px;
+	font-size: 10pt;
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+.contact_form_message {
+	max-width: 270px;
+	height: 150px;
+}
+
+.contact_form_submit {
+	width: 190px;
+	background-color: #414042;
+	color: #72B3CC;
+	padding: 15px 0;
+	border: 1px solid transparent;
+	border-bottom: 5px solid #313032;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.footer {
+	background-color: #414042;
+	color: #707071;
+	height: 110px;
+	overflow: hidden;
+	font-size: 10pt;
+	box-sizing: border-box;
+	padding: 50px 25px;
+}
+
+.footer_copyright {
+	float: left;
+}
+
+.footer_author {
+	float: right;
+}
