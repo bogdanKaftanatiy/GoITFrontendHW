@@ -3,6 +3,155 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+.header	{
+	background-image: url(img/header_background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.site_title	{
+	background-color: rgba(0,0,0, 0.3);
+	min-width: 1200px;
+}
+
+.logo_icon, .main_menu {
+	display: inline-block;
+}
+
+.logo_icon {
+	margin: 15px 0 25px 100px;
+}
+
+.main_menu {
+	vertical-align: top;
+	margin-left: 100px;
+	width: 850px;
+}
+
+.main_menu_item {
+	display: inline-block;
+	 
+}
+
+.main_menu_item>a {
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 35px;
+	margin: 0 15px;
+}
+
+.main_menu_selected>a {
+	color: #4BC9FE;
+	border-top: 3px solid #4BC9FE;
+}
+
+.slider {
+	position: relative;
+}
+
+.slider_hand, .slider_data {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider_hand {
+	margin-top: 75px;
+}
+
+.slider_data {
+	width: 700px;
+}
+
+.slider_title {
+	font-size: 35pt;
+	font-weight: normal;
+	color: white;
+	margin-top: 150px;
+}
+
+.slider_marked {
+	background-color: transparent;
+	font-weight: bold;
+	color: white;
+}
+
+.slider_info {
+	color: white;
+}
+
+.download, .more {
+	text-align: center;
+	text-transform: uppercase;
+	width: 195px;
+	padding: 20px 10px;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.download {
+	background-color: transparent;
+	border: 3px solid white;
+	margin-right: 50px;
+}
+
+.more {
+	background-color: #4BCAFF;
+	border: 2px solid transparent;
+	border-bottom: 4px solid #277697;
+}
+
+.available {
+	color: white;
+	position: relative;
+}
+
+.apple, .android {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	width: 52px;
+	height: 52px;
+	margin: 10px;
+}
+
+.apple_hover, .android_hover {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: none;
+}
+
+.apple:hover .apple_hover, .android:hover .android_hover {
+	display: block;
+	z-index: 101;
+}
+
+.slider_nav {
+	width: 85px;
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+
+.slider_nav_item {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid white;
+	margin: 4px;
+	border-radius: 100%;
+}
+
+.slider_nav_selected {
+	background-color: #4BCAFF;
+}
+
 .like_block {
 	background-color: #414042;
 	color: white;
