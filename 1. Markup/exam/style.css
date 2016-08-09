@@ -1,0 +1,119 @@
+body {
+	background-color: #F9F9F9;
+}
+
+.site_content {
+	width: 975px;
+	margin: auto;
+	background-color: white;
+	font-family: 'Arial', sans-serif;
+}
+
+.logo, .main_menu {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main_menu {
+	float: right;
+}
+
+.logo {
+	font-family: 'Oleo Script', cursive;
+	font-size: 29pt;
+	width: 165px;
+	margin: 20px 30px;
+}
+
+.logo_underline {
+	font-size: 8pt;
+	color: #999;
+	font-family: 'Arial', sans-serif;
+}
+
+.main_menu_item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 40px 25px;
+}
+
+.main_menu_item>a {
+	text-decoration: none;
+	color: #666;
+	font-size: 10pt;
+}
+
+.main_menu_item:hover>a {
+	text-decoration: none;
+	color: #222;
+}
+
+.main_menu_special_item>a {
+	color: white;
+	text-shadow: 0 0 1px grey;
+}
+
+.main_menu_special_item {
+	width: 85px;
+	padding: 5px 0; 
+	margin: 34px 20px;
+	background-color: #FFC552;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #EFBA4F;
+}
+
+.main_menu_special_item:hover>a {
+	color: white;
+}
+
+.main_menu_special_item:hover {
+	background-color: #FCA531;
+}
+
+.main_menu_sub {
+	position: relative;
+	margin: 0;
+	padding: 40px 25px;
+}
+
+.main_sub_menu {
+	position: absolute;
+	border: 1px solid #DDD;
+	width: 165px;
+	left: -10px;
+	top: 75%;
+	padding: 8px;
+	display: none;
+}
+
+.sub_menu_item {
+	display: block;
+	font-size: 10pt;
+	color: #898989;
+	box-sizing: border-box;
+	padding: 10px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.sub_menu_item:last-child {
+	border: 0px solid transparent;
+}
+
+.sub_menu_item>a {
+	text-decoration: none;
+	color: #898989;
+}
+
+.sub_menu_underline {
+	color: #AAA;
+	font-size: 8pt;
+}
+
+.sub_menu_item:hover {
+	background-color: #F3F3F3;
+}
+
+.main_menu_sub:hover .main_sub_menu {
+	display: block;
+}
