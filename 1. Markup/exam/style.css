@@ -7,6 +7,7 @@ body {
 	margin: auto;
 	background-color: white;
 	font-family: 'Arial', sans-serif;
+	padding: 20px;
 }
 
 .logo, .main_menu {
@@ -22,7 +23,7 @@ body {
 	font-family: 'Oleo Script', cursive;
 	font-size: 29pt;
 	width: 165px;
-	margin: 20px 30px;
+	margin: 0 10px 20px 10px;
 }
 
 .logo_underline {
@@ -34,7 +35,7 @@ body {
 .main_menu_item {
 	display: inline-block;
 	vertical-align: top;
-	margin: 40px 25px;
+	margin: 20px 25px 40px 25px;
 }
 
 .main_menu_item>a {
@@ -56,7 +57,7 @@ body {
 .main_menu_special_item {
 	width: 85px;
 	padding: 5px 0; 
-	margin: 34px 20px;
+	margin: 14px 20px 40px 20px;
 	background-color: #FFC552;
 	text-align: center;
 	border-radius: 3px;
@@ -74,7 +75,7 @@ body {
 .main_menu_sub {
 	position: relative;
 	margin: 0;
-	padding: 40px 25px;
+	padding: 20px 25px 40px 25px;
 }
 
 .main_sub_menu {
@@ -85,6 +86,7 @@ body {
 	top: 75%;
 	padding: 8px;
 	display: none;
+	background-color: white;
 }
 
 .sub_menu_item {
@@ -116,4 +118,111 @@ body {
 
 .main_menu_sub:hover .main_sub_menu {
 	display: block;
+}
+
+.hero_block {
+	padding: 50px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.image_hero_block {
+	width: 290px;
+	height: 190px;
+	padding: 5px;
+	background-color: #F6F6F6;
+	border: 2px solid #DFDFDF;
+	position: relative;
+	box-shadow: 0 2px 0 #747474;
+	margin-left: 55px;
+	display: inline-block;
+}
+
+.hero_nav_button_left, .image_hero_info,
+.hero_nav_button_right {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 2px 0 2px;
+}
+
+.hero_nav {
+	position: absolute;
+	width: 290px;
+	left: 7px;
+	bottom: 7px; 
+}
+
+.image_hero_info {
+	color: white;
+	background-color: rgba(0,0,0, 0.4);
+	padding: 10px 23px 12px 5px;
+	font-size: 11pt;
+}
+
+.image_info_underline {
+	color: #555;
+	font-size: 9pt;
+}
+
+.image_info_underline>mark {
+	background-color: transparent;
+	color: #FFC14C;
+}
+
+.hero_info {
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	padding-left: 20px;
+}
+
+.hero_name {
+	font-size: 30pt;
+	color: #515151;
+	padding: 15px 0;
+}
+
+.hero_name_underline {
+	font-size: 11pt;
+	color: #8C8C8C;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #F6F6F6;
+}
+
+.watch_button {
+	background-color: #FFC04A;
+	border: 1px solid #EFB74C;
+	border-radius: 3px;
+	margin-top: 10px;
+	width: 170px;
+	float: right;
+	text-align: left;
+}
+
+.watch_info, .watch_link {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.watch_info {
+	width: 110px;
+	font-size: 12pt;
+	color: white;
+	margin: 5px 0;
+	padding-left: 10px;
+	border-right: 1px solid #FFB43D;
+}
+
+.watch_left {
+	display: block;
+	width: 110px;
+	color: #D28600;
+	font-size: 8pt;
+	text-transform: uppercase;
+}
+
+.watch_link{
+	margin: 5px 0;
+	border-left: 1px solid #FFC65D;
+	padding: 5px 17px;
 }
