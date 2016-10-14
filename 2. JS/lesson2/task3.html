@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 1 task 3</title>
+</head>
+<body>
+<h1>Lesson 2</h1>
+Task 3
+<script>
+    var login = prompt("Login: ");
+    var password;
+    if (login == 'admin') {
+        password = prompt('Password: ');
+        alert('Login: ' + login + '\nPassword: ' + password);
+    } else if (login == null) {
+        alert('Canceled')
+    } else {
+        alert('Access denied')
+    }
+</script>
+</body>
+</html>
